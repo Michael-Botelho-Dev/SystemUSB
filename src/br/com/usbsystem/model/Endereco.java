@@ -68,4 +68,13 @@ public class Endereco {
     public void setEstado(String estado) {
         this.estado = estado;
     }
+
+    public String getEnderecoCompleto(){
+        return this.logradouro + ","
+                + this.numero + ","
+                + this.complemento + ","
+                + this.cep + ","
+                + this.cidade + ","
+                + this.estado;
+    }
 }
