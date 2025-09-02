@@ -48,4 +48,8 @@ public abstract class Funcionario {
     public void setSalarioFixo(double salarioFixo) {
         this.salarioFixo = salarioFixo;
     }
+
+    public abstract double getBonus();
+
+    public abstract String getDetalhamento();
 }
